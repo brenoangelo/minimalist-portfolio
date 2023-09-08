@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body data-bs-theme="dark">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-body-emphasis h4">Collapsed content</h5>
+      <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand">BrenoDev</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="py-5" id="sobre-mim" style="min-height: calc(95vh - 56px)">
+    <div class="container">
+      <h2>Sobre mim</h2>
+      <p>Olá, visitante! Sou um desenvolvedor front-end apaixonado por tecnologia e jogos. Em 2020, encontrei minha
+        paixão no desenvolvimento front-end ao criar sites com WordPress. Fiquei encantado com as possibilidades que
+        essa ferramenta oferece, permitindo-me explorar minha criatividade e impulsionar os negócios dos meus clientes.</p>
+
+        <p>Atualmente, estou focado no desenvolvimento de software utilizando ReactJS e TypeScript, enquanto também estudo
+        Node.js e Python para expandir minhas habilidades no desenvolvimento back-end. A seguir, você encontrará mais
+        detalhes sobre minha experiência e habilidades.</p>
+
+        <strong>Habilidades e Experiência:</strong>
+
+        <p>Experiência no desenvolvimento front-end com ênfase em ReactJS e TypeScript.
+        Criação de interfaces interativas, escaláveis e de alto desempenho.
+        Desenvolvimento de sites institucionais, e-commerces e landing pages utilizando WordPress.
+        Utilização de testes unitários para garantir a qualidade do código.
+        Estudo em andamento de Node.js e Python para aprimoramento no desenvolvimento back-end.</p>
+        <img src="/coffee.gif" alt="cafezinho" title="Café é muito bom">
+    </div>
+  </section>
+
+  <footer class="footer mt-auto">
+    <div class="container">
+      <p class="text-center">Direitos reservados - &copy; <span id="currentYear"></span> Breno Angelo</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    const currentYearSpan = document.getElementById('currentYear')
+    const currentYear = new Date().getFullYear()
+
+    currentYearSpan.innerHTML = currentYear
+  </script>
+</body>
+
+</html>
